@@ -13,7 +13,7 @@ export class ImageService {
   }
 
   getList(): Observable<ImageList> {
-    return this.apiHttpService.get('/image/list').pipe(
+    return this.apiHttpService.get('/images/list').pipe(
       map(response => new ImageList(response))
     );
   }
