@@ -1,6 +1,5 @@
 export const environment = {
-  production: false,
-  imagesEndPoint: 'https://araneum.marcomprocloud.eu'
+  production: false
 };
 
 import 'zone.js/dist/zone-error';
