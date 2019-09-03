@@ -1,0 +1,9 @@
+
+<virtual-scroller *ngIf="images" #scroll [items]="images" [parentScroll]="scroll!.window">
+  <div #container class="row">
+    <app-tile *ngFor="let item of scroll.viewPortItems" [item]="item"></app-tile>
+  </div>
+</virtual-scroller>
+
+
+

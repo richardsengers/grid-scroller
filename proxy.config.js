@@ -3,7 +3,7 @@ const PROXY_CONFIG = [
     context: [
       "/images/list"
     ],
-    target: "https://araneum.marcomprocloud.eu/",
+    target: "https://araneum.marcomprocloud.eu",
     secure: false,
     logLevel: "debug",
     changeOrigin: true

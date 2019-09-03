@@ -13,7 +13,7 @@ export class ApiHttpService {
 
   get(url: string): Observable<any> {
 
-    return this.http.get('/image_api' + url).pipe(
+    return this.http.get(url).pipe(
       map(this.handleResponse),
       catchError(this.handleError.bind(this))
     );
