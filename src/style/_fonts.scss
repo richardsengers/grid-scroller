@@ -1,0 +1,60 @@
+/* Lato */
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato Light'),
+		 local('Lato-Light'),
+		 url('#{$web-font-path}lato/Lato-Light.woff2') format('woff2'),
+		 url('#{$web-font-path}lato/Lato-Light.woff') format('woff');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato Regular'),
+		 local('Lato-Regular'),
+		 url('#{$web-font-path}lato/Lato-Regular.woff2') format('woff2'),
+		 url('#{$web-font-path}lato/Lato-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato Medium'),
+		 local('Lato-Medium'),
+		 url('#{$web-font-path}lato/Lato-Medium.woff2') format('woff2'),
+		 url('#{$web-font-path}lato/Lato-Medium.woff') format('woff');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato Bold'),
+		 local('Lato-Bold'),
+		 url('#{$web-font-path}lato/Lato-Bold.woff2') format('woff2'),
+		 url('#{$web-font-path}lato/Lato-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato Heavy'),
+		 local('Lato-Heavy'),
+		 url('#{$web-font-path}lato/Lato-Heavy.woff2') format('woff2'),
+		 url('#{$web-font-path}lato/Lato-Heavy.woff') format('woff');
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: local('Lato Black'),
+		 local('Lato-Black'),
+		 url('#{$web-font-path}lato/Lato-Black.woff2') format('woff2'),
+		 url('#{$web-font-path}lato/Lato-Black.woff') format('woff');
+	font-style: normal;
+	font-weight: 900;
+}

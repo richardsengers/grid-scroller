@@ -1,10 +1,22 @@
 
+@import 'style/vars/variables';
+
+@import 'style/modifiers/color';
+@import 'style/modifiers/font';
+@import 'style/modifiers/font-size';
+@import 'style/modifiers/paragraph';
+@import 'style/modifiers/heading';
+
 
 @import '~bootstrap/scss/mixins';
 @import '~bootstrap/scss/bootstrap-grid';
 @import '~bootstrap/scss/images';
 @import '~bootstrap/scss/card';
 @import '~bootstrap/scss/utilities';
+
+@import 'style/paragraphs';
+@import 'style/fonts';
+@import 'style/headings';
 
 body {
   @extend .d-flex;

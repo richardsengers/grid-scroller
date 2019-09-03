@@ -1,0 +1,26 @@
+@import 'font-size';
+@import 'font';
+
+@mixin heading($type: null) {
+  @if $type == null {
+    font-size: font-size(heading);
+    @include font-medium;
+    margin: 0;
+  }
+
+  @if $type == 'default' {
+    font-size: font-size(heading);
+    line-height: 60px;
+  }
+
+  @else if $type == 'medium' {
+    font-size: font-size(heading-medium);
+    line-height: 30px;
+  }
+
+  @else if $type == 'small' {
+    font-size: font-size(heading-small);
+    line-height: 27px;
+  }
+
+}

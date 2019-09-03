@@ -1,0 +1,33 @@
+.heading {
+  @include heading();
+}
+
+// fs1
+.heading--hero {
+  @include heading('hero');
+}
+
+// fs2
+.heading--large {
+  @include heading('large');
+}
+
+// fs3
+.heading--medium {
+  @include heading('medium');
+}
+
+// fs4
+.heading--small {
+  @include heading('small');
+}
+
+// fs5
+.heading--x-small {
+  @include heading('x-small');
+
+}
+
+.heading--default {
+  @include heading('default');
+}

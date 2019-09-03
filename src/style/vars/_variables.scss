@@ -1,0 +1,25 @@
+
+@import 'colors';
+@import 'font-sizes';
+$web-font-path: '/assets/fonts/';
+$spacer: 32px !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+    (
+      0: 0,
+      1: ($spacer * .25), // 8px
+      2: ($spacer * .5), // 16px;
+      3: $spacer * .75, // 24px
+      4: ($spacer), // 32px
+      5: ($spacer * 1.25), // 40px
+      6: ($spacer * 1.5), // 48px
+      7: ($spacer * 2), // 64px
+      8: ($spacer * 3), // 96px
+      9: ($spacer * 3.5), // 112px
+      10: ($spacer * 4) // 128px
+    ),
+    $spacers
+);
+
+$grid-gutter-width: 8px;

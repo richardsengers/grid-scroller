@@ -5042,13 +5042,6 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ngx-virtual-scroll@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ngx-virtual-scroll/-/ngx-virtual-scroll-2.1.2.tgz#780c2e52f2474fd8d2808883a14b994b0952e283"
-  integrity sha512-CzAz2vfYr6vBA8z37gPDLtlxU3UznFJP76DPx26vDr1SpK0cHtqT3kby7G5xsp9zdgrBerPfpng7nQLNPDz0ig==
-  dependencies:
-    tslib "^1.9.0"
-
 ngx-virtual-scroller@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/ngx-virtual-scroller/-/ngx-virtual-scroller-3.0.2.tgz#509b313d47c9659ca7fa7467bded3a5bba617ff7"
