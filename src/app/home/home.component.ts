@@ -16,8 +16,9 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    if (this.route.snapshot.data.list) {
-      this.images = this.route.snapshot.data.list.images;
+
+    if (this.route.snapshot.data.images) {
+      this.images = this.route.snapshot.data.images.list;
       this.changeDetectorRef.markForCheck();
     }
 

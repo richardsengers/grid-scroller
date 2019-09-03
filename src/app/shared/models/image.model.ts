@@ -10,6 +10,7 @@ export class ImageList {
       }
     }
 
+
     this.total = this.list.length;
   }
 }

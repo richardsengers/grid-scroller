@@ -6,7 +6,9 @@ import { TileComponent } from './tile/tile.component';
 
 
 @NgModule({
-  declarations: [TileComponent],
+  declarations: [
+    TileComponent
+  ],
   exports: [
     TileComponent,
     VirtualScrollerModule
