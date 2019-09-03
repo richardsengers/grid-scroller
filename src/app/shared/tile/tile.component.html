@@ -1,4 +1,9 @@
-<div class="tile w-100 d-flex align-items-center flex-column">
+<div class="tile w-100 d-flex align-items-center flex-column"
+     [tooltip]="item.description"
+     tooltip-class="tile--tooltip"
+     placement="top"
+     show-delay="200"
+     theme="light">
   <img [src]="item.url" class="img-thumbnail mb-1">
   <div class="heading heading--small">{{item.title}}</div>
 </div>

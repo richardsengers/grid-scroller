@@ -20,6 +20,7 @@
 
 body {
   @extend .d-flex;
+  color: map-get($swatches, 'accent');
   flex-direction: column;
   height: 100%;
   font-size: 100%;
@@ -29,4 +30,7 @@ body {
   -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+.tile--tooltip {
+  @extend .paragraph
 }

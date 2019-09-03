@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { VirtualScrollerModule } from 'ngx-virtual-scroller';
 import { TileComponent } from './tile/tile.component';
+import { TooltipModule } from 'ng2-tooltip-directive';
 
 
 @NgModule({
@@ -11,12 +12,14 @@ import { TileComponent } from './tile/tile.component';
   ],
   exports: [
     TileComponent,
-    VirtualScrollerModule
+    VirtualScrollerModule,
+    TooltipModule
   ],
   imports: [
     CommonModule,
     HttpClientModule,
-    VirtualScrollerModule
+    VirtualScrollerModule,
+    TooltipModule
   ]
 })
 export class SharedModule { }
