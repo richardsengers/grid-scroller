@@ -19,6 +19,7 @@ export class Image {
   title: string;
   description: string;
   url: string;
+  name: string;
 
   constructor(image) {
     for (const i in image) {
