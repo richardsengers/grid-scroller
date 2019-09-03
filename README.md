@@ -12,4 +12,3 @@
 * Still need to add some working tests. Will describe and update them in a next release
 * Improvements; somehow the latest version of the cli and angular don't render the page right when making changes to the html templates. I've never seen it before and I haven't figured out what's causing this issue. It only affects developement.
 * Improvements; Layout can be better designed ;-)
-
