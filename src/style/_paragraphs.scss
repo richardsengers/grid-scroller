@@ -1,0 +1,13 @@
+// fs4
+.paragraph {
+  @include paragraph('default');
+}
+
+// fs3
+.paragraph--large {
+  @include paragraph('large');
+}
+
+.paragraph--strong {
+  @include font-bold;
+}

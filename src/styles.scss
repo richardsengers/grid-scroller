@@ -1,0 +1,36 @@
+
+@import 'style/vars/variables';
+
+@import 'style/modifiers/color';
+@import 'style/modifiers/font';
+@import 'style/modifiers/font-size';
+@import 'style/modifiers/paragraph';
+@import 'style/modifiers/heading';
+
+
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/images';
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/utilities';
+
+@import 'style/paragraphs';
+@import 'style/fonts';
+@import 'style/headings';
+
+body {
+  @extend .d-flex;
+  color: map-get($swatches, 'accent');
+  flex-direction: column;
+  height: 100%;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.tile--tooltip {
+  @extend .paragraph
+}

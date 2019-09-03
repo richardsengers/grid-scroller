@@ -882,6 +882,11 @@
     semver "6.3.0"
     semver-intersect "1.4.0"
 
+"@tweenjs/tween.js@17.4.0":
+  version "17.4.0"
+  resolved "https://registry.yarnpkg.com/@tweenjs/tween.js/-/tween.js-17.4.0.tgz#2e9ab3f2111906b30dfe1ef3259a9781dd211d35"
+  integrity sha512-J3fzl1F6wvh8KXVVcIuHN12xi1ZDcPA/0Vix+ZcJYwZWVHUwfIqfvzYXXEw7ybeev6477KCTt9fKydU+ajUqcg==
+
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -942,6 +947,11 @@
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@types/source-list-map/-/source-list-map-0.1.2.tgz#0078836063ffaf17412349bba364087e0ac02ec9"
   integrity sha512-K5K+yml8LTo9bWJI/rECfIPrGgxdpeNbj+d53lwN4QjW1MCwlkhUms+gtdzigTeUyBr09+u8BwOIY3MXvHdcsA==
+
+"@types/tween.js@17.2.0":
+  version "17.2.0"
+  resolved "https://registry.yarnpkg.com/@types/tween.js/-/tween.js-17.2.0.tgz#25f98311daecb165ab91ee2cd7f17a9b1e6cc30c"
+  integrity sha512-mOsqurEtFEzwgkVc/jDVE2XrjZBYTbrmDUyCr9GXmnfc6q5otokxFtKvSY/B21zgz9LVRIvRTawKczjKi57wrA==
 
 "@types/webpack-sources@^0.1.5":
   version "0.1.5"
@@ -5032,11 +5042,20 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ngx-virtual-scroll@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ngx-virtual-scroll/-/ngx-virtual-scroll-2.1.2.tgz#780c2e52f2474fd8d2808883a14b994b0952e283"
-  integrity sha512-CzAz2vfYr6vBA8z37gPDLtlxU3UznFJP76DPx26vDr1SpK0cHtqT3kby7G5xsp9zdgrBerPfpng7nQLNPDz0ig==
+ng2-tooltip-directive@^2.1.9:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/ng2-tooltip-directive/-/ng2-tooltip-directive-2.1.9.tgz#01dab4767ac36374960a3adbb1ba97d53049c71e"
+  integrity sha512-ZnlSRmxCMop65L0D+s1V7Me01FmhNdjxpuPd9n9e8U6wnmEQxqRy9Dd1Op6DnpkPYz0P48yn8GG0jYTP6yoXTQ==
   dependencies:
+    tslib "^1.9.0"
+
+ngx-virtual-scroller@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/ngx-virtual-scroller/-/ngx-virtual-scroller-3.0.2.tgz#509b313d47c9659ca7fa7467bded3a5bba617ff7"
+  integrity sha512-U0gMzlYJDe8cRHoJB1SAm8yBvs+8THqojFEXpfjybVIYMKlDoUIwhGVdw7jCztiwqhsvBHJCS2u2GtKT9f2RGQ==
+  dependencies:
+    "@tweenjs/tween.js" "17.4.0"
+    "@types/tween.js" "17.2.0"
     tslib "^1.9.0"
 
 nice-try@^1.0.4:

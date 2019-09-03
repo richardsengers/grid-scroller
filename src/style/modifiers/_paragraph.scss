@@ -1,0 +1,20 @@
+@import 'font-size';
+@import 'font';
+
+@mixin paragraph($type, $isStrong: false) {
+  @if $type == 'default' {
+    margin-top: 0px;
+    font-size: font-size(default);
+    @include font-default;
+    line-height: 22px !important;
+    letter-spacing: -0.01em;
+  }
+
+  @if $type == 'large' {
+    font-size: font-size(heading-small);
+  }
+
+  @if $isStrong {
+    @include font-bold;
+  }
+}

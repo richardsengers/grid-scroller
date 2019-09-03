@@ -1,0 +1,8 @@
+{
+  "/image_api/*": {
+    "target": "https://araneum.marcomprocloud.eu/images/list",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
