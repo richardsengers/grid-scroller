@@ -1,6 +1,10 @@
-@each $name, $swatch in $swatches
-  .color--#{"" + $name + ""}
+@each $name, $swatch in $swatches {
+  .color--#{"" + $name + ""} {
     color: $swatch !important
+  }
 
-  .bg--#{"" + $name + ""}
-    background-color: $swatch !important
+  .bg--#{"" + $name + ""} {
+    background-color: $swatch !important;
+  }
+
+}
